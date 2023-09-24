@@ -1,61 +1,61 @@
 {
   "images" : [
     {
-      "filename" : "favicon_16.png",
+      "filename" : "favicon_macos_1024.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
     },
     {
-      "filename" : "favicon_32.png",
+      "filename" : "favicon_macos_1024 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
     },
     {
-      "filename" : "favicon_32 1.png",
+      "filename" : "favicon_macos_1024 2.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "32x32"
     },
     {
-      "filename" : "favicon_64.png",
+      "filename" : "favicon_macos_1024 3.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "32x32"
     },
     {
-      "filename" : "favicon_128.png",
+      "filename" : "favicon_macos_1024 4.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "128x128"
     },
     {
-      "filename" : "favicon_256.png",
+      "filename" : "favicon_macos_1024 5.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
     },
     {
-      "filename" : "favicon_256 1.png",
+      "filename" : "favicon_macos_1024 6.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
     },
     {
-      "filename" : "favicon_512.png",
+      "filename" : "favicon_macos_1024 7.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
     },
     {
-      "filename" : "favicon_512 1.png",
+      "filename" : "favicon_macos_1024 8.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"
     },
     {
-      "filename" : "favicon_1024.png",
+      "filename" : "favicon_macos_1024 9.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"

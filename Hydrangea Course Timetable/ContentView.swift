@@ -24,6 +24,10 @@ struct ContentView: View {
                 
                 Text("")
                 
+                Link("- Made by Acan", destination: URL(string: "https://Zeyu-Xie.github.io/Acan")!)
+                
+                Text("")
+                
                 Text("- \(formattedDateTime(currentDateTime))")
                     .onAppear {
                         startUpdatingDateTime()
@@ -38,9 +42,6 @@ struct ContentView: View {
                     if openPanel.runModal() == .OK {
                         if let imageURL = openPanel.url {
                             selectedImage = NSImage(contentsOf: imageURL)
-                            
-                            // @State private var documentsURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
-                            
                             
                             if let documentsDirectoryURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {
                                 let fileURL = documentsDirectoryURL.appendingPathComponent("image.png")
@@ -59,7 +60,7 @@ struct ContentView: View {
                 Text("")
                 Divider()
             }
-            .frame(width: 800, alignment: .leading)
+            .frame(width: 1280, alignment: .leading)
             
             VStack(alignment: .center) {
                 Text("")
@@ -67,7 +68,7 @@ struct ContentView: View {
                     Image(nsImage: image)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .frame(width: 800.0)
+                        .frame(width: 1280)
                 } else {
                     Text("Please upload your course timetable by clicking the \"Select Image\" button.")
                 }

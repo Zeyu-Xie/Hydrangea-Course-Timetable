@@ -2,7 +2,7 @@
 //  Hydrangea_Course_TimetableApp.swift
 //  Hydrangea Course Timetable
 //
-//  Created by 谢泽钰 on 2023/9/24.
+//  Created by Acan on 2023/9/24.
 //
 
 import SwiftUI

@@ -2,7 +2,7 @@
 //  ButtonUploadConfig.swift
 //  Hydrangea Course Timetable
 //
-//  Created by 谢泽钰 on 2023/9/27.
+//  Created by Acan on 2023/9/27.
 //
 
 import SwiftUI

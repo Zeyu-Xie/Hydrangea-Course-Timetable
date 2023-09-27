@@ -14,7 +14,8 @@ struct CourseList: View {
     @State private var _configURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!.appendingPathComponent("config.json")
     
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
+            Text("Course List").font(.title)
             HStack {
                 ForEach(0..<localCourses.data.count, id:\.self) {num in
                     VStack(alignment: .leading) {
@@ -27,7 +28,7 @@ struct CourseList: View {
                     Spacer()
                 }
             }.frame(width: 1280, alignment: .leading)
-        }.padding().onAppear {
+        }.padding(.top).onAppear {
             getConfig()
         }
     }

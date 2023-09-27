@@ -10,12 +10,13 @@ import Foundation
 
 struct ImageTimetable: View {
     
-    @State private var _imageURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!.appendingPathComponent("image.png")
+    @State private var imagePath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!.appendingPathComponent("image.png")
     
     var body: some View {
-        VStack(alignment: .center) {
+        VStack(alignment: .leading) {
+            Text("Timetable").font(.title)
             Text("")
-            if let image = NSImage(contentsOf: _imageURL) {
+            if let image = NSImage(contentsOf: imagePath) {
                 Image(nsImage: image)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
@@ -25,6 +26,6 @@ struct ImageTimetable: View {
             }
             Text("")
             Divider()
-        }.frame(width: 1280, alignment: .leading)
+        }.frame(width: 1280, alignment: .leading).padding(.top)
     }
 }

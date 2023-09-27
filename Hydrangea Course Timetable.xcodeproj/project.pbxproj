@@ -14,6 +14,13 @@
 		FF7ED64B2AC065B7000384FC /* Hydrangea_Course_TimetableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7ED64A2AC065B7000384FC /* Hydrangea_Course_TimetableTests.swift */; };
 		FF7ED6552AC065B7000384FC /* Hydrangea_Course_TimetableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7ED6542AC065B7000384FC /* Hydrangea_Course_TimetableUITests.swift */; };
 		FF7ED6572AC065B7000384FC /* Hydrangea_Course_TimetableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7ED6562AC065B7000384FC /* Hydrangea_Course_TimetableUITestsLaunchTests.swift */; };
+		FFA57E212AC40F4C0049B139 /* TextTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA57E202AC40F4C0049B139 /* TextTime.swift */; };
+		FFA57E262AC414830049B139 /* ButtonFolderPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA57E252AC414830049B139 /* ButtonFolderPath.swift */; };
+		FFA57E292AC416020049B139 /* courseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA57E282AC416020049B139 /* courseList.swift */; };
+		FFA57E2B2AC416B10049B139 /* ButtonSelectImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA57E2A2AC416B10049B139 /* ButtonSelectImage.swift */; };
+		FFA57E2D2AC4182E0049B139 /* ButtonUploadConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA57E2C2AC4182E0049B139 /* ButtonUploadConfig.swift */; };
+		FFA57E2F2AC418ED0049B139 /* ImageTimetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA57E2E2AC418ED0049B139 /* ImageTimetable.swift */; };
+		FFA57E312AC419EB0049B139 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA57E302AC419EB0049B139 /* CourseList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		FF7ED6502AC065B7000384FC /* Hydrangea Course TimetableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hydrangea Course TimetableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7ED6542AC065B7000384FC /* Hydrangea_Course_TimetableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrangea_Course_TimetableUITests.swift; sourceTree = "<group>"; };
 		FF7ED6562AC065B7000384FC /* Hydrangea_Course_TimetableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrangea_Course_TimetableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFA57E202AC40F4C0049B139 /* TextTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTime.swift; sourceTree = "<group>"; };
+		FFA57E252AC414830049B139 /* ButtonFolderPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFolderPath.swift; sourceTree = "<group>"; };
+		FFA57E282AC416020049B139 /* courseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = courseList.swift; sourceTree = "<group>"; };
+		FFA57E2A2AC416B10049B139 /* ButtonSelectImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSelectImage.swift; sourceTree = "<group>"; };
+		FFA57E2C2AC4182E0049B139 /* ButtonUploadConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonUploadConfig.swift; sourceTree = "<group>"; };
+		FFA57E2E2AC418ED0049B139 /* ImageTimetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTimetable.swift; sourceTree = "<group>"; };
+		FFA57E302AC419EB0049B139 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +109,8 @@
 		FF7ED6372AC065B5000384FC /* Hydrangea Course Timetable */ = {
 			isa = PBXGroup;
 			children = (
+				FFA57E272AC415E90049B139 /* Structs */,
+				FFA57E222AC4111A0049B139 /* Views */,
 				FF7ED6382AC065B5000384FC /* Hydrangea_Course_TimetableApp.swift */,
 				FF7ED63A2AC065B5000384FC /* ContentView.swift */,
 				FF7ED63C2AC065B6000384FC /* Assets.xcassets */,
@@ -127,6 +143,27 @@
 				FF7ED6562AC065B7000384FC /* Hydrangea_Course_TimetableUITestsLaunchTests.swift */,
 			);
 			path = "Hydrangea Course TimetableUITests";
+			sourceTree = "<group>";
+		};
+		FFA57E222AC4111A0049B139 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FFA57E202AC40F4C0049B139 /* TextTime.swift */,
+				FFA57E2C2AC4182E0049B139 /* ButtonUploadConfig.swift */,
+				FFA57E252AC414830049B139 /* ButtonFolderPath.swift */,
+				FFA57E2A2AC416B10049B139 /* ButtonSelectImage.swift */,
+				FFA57E2E2AC418ED0049B139 /* ImageTimetable.swift */,
+				FFA57E302AC419EB0049B139 /* CourseList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FFA57E272AC415E90049B139 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				FFA57E282AC416020049B139 /* courseList.swift */,
+			);
+			path = Structs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +297,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF7ED63B2AC065B5000384FC /* ContentView.swift in Sources */,
+				FFA57E312AC419EB0049B139 /* CourseList.swift in Sources */,
+				FFA57E2F2AC418ED0049B139 /* ImageTimetable.swift in Sources */,
+				FFA57E292AC416020049B139 /* courseList.swift in Sources */,
+				FFA57E2D2AC4182E0049B139 /* ButtonUploadConfig.swift in Sources */,
+				FFA57E212AC40F4C0049B139 /* TextTime.swift in Sources */,
+				FFA57E2B2AC416B10049B139 /* ButtonSelectImage.swift in Sources */,
+				FFA57E262AC414830049B139 /* ButtonFolderPath.swift in Sources */,
 				FF7ED6392AC065B5000384FC /* Hydrangea_Course_TimetableApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

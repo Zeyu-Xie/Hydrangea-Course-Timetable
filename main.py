@@ -1,4 +1,26 @@
 import json
+import webbrowser
+
+def inputIndex():
+    idx = 0
+    while (idx < 1 or idx > num):
+        idx = input("> Please input your course index: ")
+        idx = int(idx)
+    idx = idx - 1
+    print("  ok")
+    print("\n")
+    return idx
+
+def inputType():
+    tp = 0
+    while (tp < 1 or tp > 3):
+        print("> Which page do you need to open?")
+        print("  1. 网络学堂")
+        print("  2. GitHub")
+        print("  3. GitHub Pages")
+        tp = input("> Input the index: ")
+        tp = int(tp)
+    return tp
 
 courses = []
 
@@ -15,12 +37,16 @@ for i in range(0, len(courses)):
     print(f"{i+1}. {courses[i]['name']}")
 print("\n")
 
-index = 0
+index = inputIndex()
 
-while(index<1 or index>num):
-    index = input("Please input your course index: ")
-    index = int(index)
+type = inputType()
 
-index = index - 1
 
-print(courses[index]["name"])
+if (type == 1):
+    webbrowser.open(courses[index]["learnx"])
+elif (type == 2):
+    webbrowser.open(courses[index]["github"])
+else:
+    webbrowser.open(courses[index]["notes"])
+
+

@@ -1,15 +1,19 @@
 [
     {
-        "name": "古希腊哲学经典研读"
+        "name": "古希腊哲学经典研读",
+        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146570464"
     },
     {
-        "name": "昆曲艺术与文化传承"
+        "name": "昆曲艺术与文化传承",
+        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146570522"
     },
     {
-        "name": "绘画与观看"
+        "name": "绘画与观看",
+        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146570579"
     },
     {
-        "name": "思想道德与法治"
+        "name": "思想道德与法治",
+        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146570976"
     },
     {
         "name": "电动力学",
@@ -18,12 +22,15 @@
         "notes": "https://zeyu-xie.github.io/Myosotis-Electrodynamics/"
     },
     {
-        "name": "数值分析"
+        "name": "数值分析",
+        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146573045"
     },
     {
-        "name": "算法分析与设计"
+        "name": "算法分析与设计",
+        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146574106"
     },
     {
-        "name": "机器学习中的优化算法"
+        "name": "机器学习中的优化算法",
+        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146574861"
     }
 ]

@@ -1,5 +1,6 @@
 import json
 import webbrowser
+import sys
 
 def getCourses():
     cs = []
@@ -15,12 +16,14 @@ def inputIndex():
     print("\n")
     for i in range(0, len(courses)):
         print(f"{i+1}. {courses[i]['name']}")
+    print("0. (Back)")
     print("\n")
 
     idx = -1
-    while (idx < 1 or idx > num):
+    while (idx < 0 or idx > num):
         idx = input("> Please input your course index: ")
         idx = int(idx)
+
     idx = idx - 1
     print("> ok")
     print("\n")
@@ -57,6 +60,10 @@ certain = 0
 
 while(certain == 0):
     index = inputIndex()
+
+    if(index == -1): 
+        break
+
     type = inputType(index)
     if(type == 0): 
         certain = 0

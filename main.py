@@ -10,14 +10,14 @@ def getCourses():
 
 def inputIndex():
 
-    print("\n")
+    print("")
     print("> Welcome to Hydrangea Course Timetable")
     print("> Made by Acan")
-    print("\n")
+    print("")
     for i in range(0, len(courses)):
         print(f"{i+1}. {courses[i]['name']}")
     print("0. (Back)")
-    print("\n")
+    print("")
 
     idx = -1
     while (idx < 0 or idx > num):
@@ -26,7 +26,7 @@ def inputIndex():
 
     idx = idx - 1
     print("> ok")
-    print("\n")
+    print("")
     return idx
 
 def inputType(idx):
@@ -41,7 +41,7 @@ def inputType(idx):
         tp = input("> Input the index: ")
         tp = int(tp)
     print("> ok")
-    print("\n")
+    print("")
     return tp
 
 def openWebsite(idx, tp):

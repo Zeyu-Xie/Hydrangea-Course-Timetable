@@ -1,4 +1,9 @@
 #!/bin/zsh
 source ~/.zshrc
 source ~/.zprofile
-python main.py
+
+filePath="$(readlink -f "$0")"
+dirPath="$(dirname $filePath)"
+srcPath="$dirPath/main.py"
+
+python $srcPath

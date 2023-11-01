@@ -1,19 +1,27 @@
 [
     {
         "name": "古希腊哲学经典研读",
-        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146570464"
+        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146570464",
+        "github": "https://github.com/Zeyu-Xie/Myosotis-Studies-on-Greek-Philosophical-Classics",
+        "notes": "https://zeyu-xie.github.io/Myosotis-Studies-on-Greek-Philosophical-Classics/"
     },
     {
         "name": "昆曲艺术与文化传承",
-        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146570522"
+        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146570522",
+        "github": "https://github.com/Zeyu-Xie/Myosotis-Kunqu-Opera-and-Cultural-Inheritance",
+        "notes": "https://zeyu-xie.github.io/Myosotis-Kunqu-Opera-and-Cultural-Inheritance/"
     },
     {
         "name": "绘画与观看",
-        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146570579"
+        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146570579",
+        "github": "#",
+        "notes": "#"
     },
     {
         "name": "思想道德与法治",
-        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146570976"
+        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146570976",
+        "github": "https://github.com/Zeyu-Xie/Myosotis-Ideology-Morality-and-Rule-of-Law",
+        "notes": "https://zeyu-xie.github.io/Myosotis-Ideology-Morality-and-Rule-of-Law/"
     },
     {
         "name": "电动力学",
@@ -23,14 +31,20 @@
     },
     {
         "name": "数值分析",
-        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146573045"
+        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146573045",
+        "github": "https://github.com/Zeyu-Xie/Myosotis-Numerical-Analysis",
+        "notes": "https://zeyu-xie.github.io/Myosotis-Numerical-Analysis/"
     },
     {
         "name": "算法分析与设计",
-        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146574106"
+        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146574106",
+        "github": "https://github.com/Zeyu-Xie/Myosotis-Algorithm-Analysis-and-Design",
+        "notes": "https://zeyu-xie.github.io/Myosotis-Algorithm-Analysis-and-Design/"
     },
     {
         "name": "机器学习中的优化算法",
-        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146574861"
+        "learnx": "https://learn.tsinghua.edu.cn/f/wlxt/index/course/student/course?wlkcid=2023-2024-1146574861",
+        "github": "https://github.com/Zeyu-Xie/Myosotis-Optimization-Algorithms-in-Machine-Learning",
+        "notes": "https://zeyu-xie.github.io/Myosotis-Optimization-Algorithms-in-Machine-Learning/"
     }
 ]

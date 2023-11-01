@@ -14,9 +14,10 @@ def inputIndex():
     print("> Welcome to Hydrangea Course Timetable")
     print("> Made by Acan")
     print("")
+    print("> Which course do you need to explore?")
     for i in range(0, len(courses)):
-        print(f"{i+1}. {courses[i]['name']}")
-    print("0. (Back)")
+        print(f"  {i+1}. {courses[i]['name']}")
+    print("  0. (Back)")
     print("")
 
     idx = -1
